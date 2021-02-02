@@ -1,0 +1,15 @@
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.image-card {
+    width: calc(100% / 4 - 10px);
+    height: 150px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
